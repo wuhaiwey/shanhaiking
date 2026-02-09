@@ -1,0 +1,59 @@
+{
+  "name": "山海战场",
+  "description": "经典的5v5对战地图，融合山海经神话元素",
+  "size": {
+    "width": 120,
+    "height": 120
+  },
+  "lanes": {
+    "top": {
+      "start": [10, 10],
+      "end": [110, 110],
+      "towers": 3
+    },
+    "mid": {
+      "start": [10, 60],
+      "end": [110, 60],
+      "towers": 3
+    },
+    "bot": {
+      "start": [10, 110],
+      "end": [110, 10],
+      "towers": 3
+    }
+  },
+  "bases": {
+    "blue": {
+      "position": [15, 60],
+      "nexus_health": 5000
+    },
+    "red": {
+      "position": [105, 60],
+      "nexus_health": 5000
+    }
+  },
+  "jungle": {
+    "camps": [
+      {
+        "name": "蓝BUFF",
+        "position": [35, 35],
+        "type": "buff"
+      },
+      {
+        "name": "红BUFF",
+        "position": [85, 85],
+        "type": "buff"
+      },
+      {
+        "name": "大龙",
+        "position": [60, 20],
+        "type": "boss"
+      },
+      {
+        "name": "小龙",
+        "position": [60, 100],
+        "type": "boss"
+      }
+    ]
+  }
+}
